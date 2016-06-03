@@ -1,11 +1,9 @@
 package net.kenro.ji.jin
 
-import java.io.File
-
 import com.vspy.mustache.Mustache
 import org.fusesource.scalamd.Markdown
+
 import scalax.file.Path
-import scalax.io.LongTraversable
 
 
 case class Param(kind: String, id: String, description: String, paramType: ParamType)
@@ -69,12 +67,10 @@ class DocGen(name: String, version: String, githubUrl: String) {
        sub("signature") = card.params.map(p => p.kind).mkString(" &#8594; ")
        sub("has_params") = true
 
-       card.params.foreach(param => {
-         if(param.paramType == ParamType.INPUT){
-           sub("input_params") = List(Map("type" -> param.kind, "id" -> param.id, "desc" -> param.description))
-         } else {
-           sub("return_value") = List(Map("has_return" -> true, "type" -> param.kind, "desc" -> param.description))
-         }
+       sub("input_params") = card.params.filter(param => param.paramType == ParamType.INPUT).map(param => Map("type" -> param.kind, "id" -> param.id, "desc" -> param.description))
+       sub("return_value") = card.params.filter(param => param.paramType == ParamType.OUTPUT).map(param => {
+         sub("has_return") = true
+         Map("type" -> param.kind, "desc" -> param.description)
        })
      }
 

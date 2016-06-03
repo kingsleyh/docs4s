@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4715530-b92c-456f-bd77-cfbec97beab8" name="Default" comment="" />
+    <list default="true" id="e4715530-b92c-456f-bd77-cfbec97beab8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala" />
+    </list>
     <ignored path="docs4s.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,14 +54,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Docs4s.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Docs4s.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5291202">
-              <caret line="127" column="37" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="112" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
                 <element signature="e#26#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="documentation.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/documentation.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="38.67857">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Docs.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3897436">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,13 +93,16 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -85,8 +114,9 @@
       <list>
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala" />
       </list>
     </option>
   </component>
@@ -97,11 +127,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="87" />
-    <option name="y" value="35" />
-    <option name="width" value="2044" />
+    <option name="y" value="23" />
+    <option name="width" value="2334" />
     <option name="height" value="1336" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -133,10 +163,6 @@
               <option name="myItemId" value="docs4s" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -158,7 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,11 +198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.11" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,15 +216,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.11" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +325,209 @@
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$066e8fb4210edb7c7127$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$066e8fb4210edb7c7127$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$066e8fb4210edb7c7127.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$066e8fb4210edb7c7127.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$384763894f3edf86ace7$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$384763894f3edf86ace7$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$384763894f3edf86ace7.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$384763894f3edf86ace7.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3a5f54cc583dcdc9c108$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3a5f54cc583dcdc9c108$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3a5f54cc583dcdc9c108.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3a5f54cc583dcdc9c108.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3f34a932f51e329a6a8c$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3f34a932f51e329a6a8c$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3f34a932f51e329a6a8c.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$3f34a932f51e329a6a8c.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$6d69d7b2dac57b08a04f$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$6d69d7b2dac57b08a04f$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$6d69d7b2dac57b08a04f.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$6d69d7b2dac57b08a04f.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$7942a3502cb89990ccdb$$anonfun$$sbtdef$1$$anonfun$apply$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$7942a3502cb89990ccdb$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$7942a3502cb89990ccdb$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$7942a3502cb89990ccdb.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$7942a3502cb89990ccdb.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b87de08dce299631fdf4$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b87de08dce299631fdf4$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b87de08dce299631fdf4.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b87de08dce299631fdf4.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b99d1aa1d5177a05daaa$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b99d1aa1d5177a05daaa$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b99d1aa1d5177a05daaa.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$b99d1aa1d5177a05daaa.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$d691674eaebf76e5fb22$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$d691674eaebf76e5fb22$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$d691674eaebf76e5fb22.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$d691674eaebf76e5fb22.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$e781888dc05faff07f16$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$e781888dc05faff07f16$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$e781888dc05faff07f16.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$e781888dc05faff07f16.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$eba0d3a9634ea5f7f863$$anonfun$$sbtdef$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$eba0d3a9634ea5f7f863$.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$eba0d3a9634ea5f7f863.cache</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/config-classes/$eba0d3a9634ea5f7f863.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/default/docs4s-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/default/docs4s-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-compile-internal.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-compile.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-docs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-optional.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-plugin.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-provided.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-runtime-internal.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-runtime.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-scala-tool.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-sources.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-test-internal.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/default-docs4s-build-test.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Application.Docs">
     <configuration default="false" name="A" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -256,6 +536,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="net.kenro.ji.jin.A" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="docs4s" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Docs" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.kenro.ji.jin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.kenro.ji.jin.Docs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -846,12 +1146,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.A" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Docs" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.A" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Docs" />
+        <item index="1" class="java.lang.String" itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -891,21 +1193,24 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e4715530-b92c-456f-bd77-cfbec97beab8" name="Default" comment="" />
       <created>1464889264166</created>
       <option name="number" value="Default" />
       <updated>1464889264166</updated>
-      <workItem from="1464889267506" duration="9716000" />
+      <workItem from="1464889267506" duration="14503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9716000" />
+    <option name="totallyTimeSpent" value="14503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="35" width="2044" height="1336" extended-state="0" />
+    <frame x="87" y="23" width="2334" height="1336" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -917,11 +1222,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11474694" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -970,21 +1275,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -997,13 +1294,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/documentation.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="38.67857">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs4s.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5291202">
-          <caret line="127" column="37" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="112" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
           <folding>
             <element signature="e#26#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/kenro/ji/jin/Docs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3897436">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
