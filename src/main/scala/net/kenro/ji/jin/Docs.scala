@@ -124,7 +124,7 @@ object Docs extends App {
     ), List(
       Example(
         """
-          |Example("auto doc = new DocGen(\"Docs4s\",\"v0.0.1\")")
+          |Example("val doc = new DocGen(\"Docs4s\",\"v0.0.1\")")
         """.stripMargin)
     ), List.empty, "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
     Card("ParamType", "Case class that holds parameter type info for params.", "ParamType", List(
