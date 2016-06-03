@@ -1,8 +1,11 @@
 package net.kenro.ji.jin
 
+import java.io.File
+
 import com.vspy.mustache.Mustache
 import org.fusesource.scalamd.Markdown
 import scalax.file.Path
+import scalax.io.LongTraversable
 
 
 case class Param(kind: String, id: String, description: String, paramType: ParamType)
@@ -19,7 +22,7 @@ case class Link(text: String, url: String, active: String = "")
 
 case class Page(filename: String, name: String, links: List[Link], markdownFile: String) {
   def html: String = {
-     Markdown(markdownFile)
+     Markdown(Path.fromString(markdownFile).lines(includeTerminator = true).mkString)
   }
 }
 
