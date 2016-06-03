@@ -131,31 +131,5 @@ class DocGen(name: String, version: String, githubUrl: String) {
 
 }
 
-object A extends App {
-  val d = new DocGen("test","0.0.1","http://some/url")
-  d.withCards(List(
-    Card("new","Creates a new instance of the DocGen class.","DocGen",
-      List(
-        Param("string","name","(project name)", ParamType.INPUT),
-        Param("DocGen","","",ParamType.OUTPUT)
-      ),
-      List(
-        Example("new DocGen(){}")
-      ),
-      List(
-        Link("Link","#Link")
-      ),
-    "source/docs4s.scala")
-  ))
-    .withLinks(List(
-      Link("Home","home.html")
-    ))
-    .withPages(List(
-      Page("home.html","Home", List(
-        Link("Home","home.html","active")
-      ), "README.md")
-    ))
-    .generate()
-}
 
 
