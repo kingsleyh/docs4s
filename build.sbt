@@ -6,7 +6,7 @@ import scala.util.Try
 
 name := "docs4s"
 
-version := "1.0"
+version := Try(sys.env("LIB_VERSION")).getOrElse("1")
 
 scalaVersion := "2.11.8"
 
