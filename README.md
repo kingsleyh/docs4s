@@ -1,5 +1,7 @@
 ## Docs4s
 
+[![Build Status](https://travis-ci.org/kingsleyh/docs4s.png?branch=master)](https://travis-ci.org/kingsleyh/docs4s) [ ![Download](https://api.bintray.com/packages/kingsleyh/repo/docs4s/images/download.svg) ](https://bintray.com/kingsleyh/repo/docs4s/_latestVersion)
+
 This project generates documentation for code. Rather than using comments embedded in the code Docs4s requires you to write the documentation separately
 using it's DSL-like API. I didn't want to litter my code with comments and this is my alternative approach based on a similar idea by the great and powerful [Stacy Curl](https://github.com/stacycurl)
 
