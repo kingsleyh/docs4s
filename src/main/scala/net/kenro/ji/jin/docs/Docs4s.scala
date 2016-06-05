@@ -1,17 +1,10 @@
 package net.kenro.ji.jin.docs
 
 import java.io.File
-import java.nio.charset.CodingErrorAction
-
 import com.vspy.mustache.Mustache
 import org.apache.commons.io.FileUtils
 import org.fusesource.scalamd.Markdown
-import sun.misc.{BASE64Decoder, BASE64Encoder}
-
-import scala.io.Codec
 import scalax.file.Path
-
-
 
 case class Param(kind: String, id: String, description: String, paramType: ParamType)
 
@@ -63,7 +56,7 @@ class DocGen(name: String, version: String, githubUrl: String) {
 
    context("links") = links.map(link => Map("text" -> link.text, "url" -> link.url, "active" -> link.active))
 
-   context("cards") = cards.map(card => {
+   context("cards") = cards.sortWith(_.name.toLowerCase < _.name.toLowerCase).map(card => {
      val sub = scala.collection.mutable.Map[String, Any]()
      sub("name") = card.name
      sub("category") = card.category
