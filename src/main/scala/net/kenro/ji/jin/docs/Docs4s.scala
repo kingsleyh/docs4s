@@ -1,4 +1,4 @@
-package net.kenro.ji.jin
+package net.kenro.ji.jin.docs
 
 import com.vspy.mustache.Mustache
 import org.fusesource.scalamd.Markdown
