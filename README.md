@@ -36,7 +36,7 @@ Here is the code that generated this documentation:
                   |       .withPages(pages)
                   |       .generate()
                 """.stripMargin)),
-              List.empty, "src/main/scala/net/kenro/ji/jin/Docs4s.scala")
+              List.empty, "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala")
             ,
             Card("withLinks", "Sets the links on the top navbar.", "DocGen", List(
               Param("List[Link]", "links", "(a list of Link case classes)", ParamType.INPUT),
@@ -75,7 +75,7 @@ Here is the code that generated this documentation:
                   |         ),List(Link("Card","#Card"))));
                   |new DocGen("Docs4s","v0.0.1").withCards(cards)
                 """.stripMargin))
-              , List(Link("Card", "#Card"), Link("Param", "#Param"), Link("Example", "#Example")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+              , List(Link("Card", "#Card"), Link("Param", "#Param"), Link("Example", "#Example")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("withPages", "Specifies additional pages.", "DocGen", List(
               Param("List[Page]", "pages", "(a list of Page case classes)", ParamType.INPUT),
               Param("DocGen", "", "", ParamType.OUTPUT)
@@ -89,8 +89,8 @@ Here is the code that generated this documentation:
                   |    Link("Github","https://github.com/kingsleyh/docs4s")
                   |    ),"README.md")
                   |)
-                """.stripMargin)), List(Link("Page", "#Page"), Link("Link", "#Link")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
-            Card("generate", "generates the html files", "void", List.empty, List.empty, List.empty, "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+                """.stripMargin)), List(Link("Page", "#Page"), Link("Link", "#Link")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
+            Card("generate", "generates the html files", "void", List.empty, List.empty, List.empty, "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("Link", "Case class that holds link information.", "Link", List(
               Param("String", "text", "", ParamType.INPUT),
               Param("String", "url", "", ParamType.INPUT),
@@ -100,7 +100,7 @@ Here is the code that generated this documentation:
               """
                 | Link("Home","home.html")
               """.stripMargin)),
-              List(Link("withLinks", "#withLinks"), Link("withPages", "#withPages"), Link("withCards", "#withCards")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+              List(Link("withLinks", "#withLinks"), Link("withPages", "#withPages"), Link("withCards", "#withCards")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("Card", "Case class that holds documentation information.", "Card", List(
               Param("String", "name", "", ParamType.INPUT),
               Param("String", "description", "", ParamType.INPUT),
@@ -124,7 +124,7 @@ Here is the code that generated this documentation:
                 |           )
                 |         )));
               """.stripMargin)),
-              List(Link("withCards", "#withCards")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+              List(Link("withCards", "#withCards")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("Param", "Case class that holds parameter info.", "Param", List(
               Param("String", "type", "", ParamType.INPUT),
               Param("String", "id", "", ParamType.INPUT),
@@ -136,7 +136,7 @@ Here is the code that generated this documentation:
                 """
                   |Param("String","name","(project name)",ParamType.INPUT)
                 """.stripMargin)
-            ), List(Link("Card", "#Card"), Link("ParamType", "#ParamType")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+            ), List(Link("Card", "#Card"), Link("ParamType", "#ParamType")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("Example", "Case class that holds example info.", "Example", List(
               Param("String", "code", "", ParamType.INPUT),
               Param("Example", "", "", ParamType.OUTPUT)
@@ -145,13 +145,13 @@ Here is the code that generated this documentation:
                 """
                   |Example("val doc = new DocGen(\"Docs4s\",\"v0.0.1\")")
                 """.stripMargin)
-            ), List.empty, "src/main/scala/net/kenro/ji/jin/Docs4s.scala"),
+            ), List.empty, "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala"),
             Card("ParamType", "Case class that holds parameter type info for params.", "ParamType", List(
               Param("ParamType", "", "(ParamType.INPUT,ParamType.OUTPUT)", ParamType.OUTPUT)
             ), List(Example(
               """
                 |Param("String","name","(project name)",ParamType.INPUT)
-              """.stripMargin)), List(Link("Param", "#Param")), "src/main/scala/net/kenro/ji/jin/Docs4s.scala")
+              """.stripMargin)), List(Link("Param", "#Param")), "src/main/scala/net/kenro/ji/jin/docs/Docs4s.scala")
           )
         
           val links = List(
@@ -168,7 +168,7 @@ Here is the code that generated this documentation:
             ), "README.md")
           )
         
-          new DocGen("Docs4s", "v0.0.1", "https://github.com/kingsleyh/docs4s/blob/master")
+          new DocGen("Docs4s", "v9", "https://github.com/kingsleyh/docs4s/blob/master")
             .withLinks(links)
             .withCards(cards)
             .withPages(pages)
