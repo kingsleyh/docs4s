@@ -24,6 +24,8 @@ libraryDependencies += "com.github.scala-incubator.io" %% "scala-io-core" % "0.4
 
 libraryDependencies += "com.github.scala-incubator.io" %% "scala-io-file" % "0.4.3"
 
+libraryDependencies += "commons-io" % "commons-io" % "2.5"
+
 ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
 
 pgpPassphrase := Some(Try(sys.env("SECRET")).getOrElse("goaway").toCharArray)

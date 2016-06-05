@@ -1,9 +1,16 @@
 package net.kenro.ji.jin.docs
 
-import com.vspy.mustache.Mustache
-import org.fusesource.scalamd.Markdown
+import java.io.File
+import java.nio.charset.CodingErrorAction
 
+import com.vspy.mustache.Mustache
+import org.apache.commons.io.FileUtils
+import org.fusesource.scalamd.Markdown
+import sun.misc.{BASE64Decoder, BASE64Encoder}
+
+import scala.io.Codec
 import scalax.file.Path
+
 
 
 case class Param(kind: String, id: String, description: String, paramType: ParamType)
@@ -103,10 +110,10 @@ class DocGen(name: String, version: String, githubUrl: String) {
 
    path.createDirectory()
 
-   Path.fromString(getClass.getResource("/main.js").getPath).copyTo(Path.fromString("docs/main.js"))
-   Path.fromString(getClass.getResource("/style.css").getPath).copyTo(Path.fromString("docs/style.css"))
+   FileUtils.copyURLToFile(getClass.getResource("/main.js"), new File("docs/main.js"))
+   FileUtils.copyURLToFile(getClass.getResource("/style.css"), new File("docs/style.css"))
    Path.fromString("docs/fonts").createDirectory()
-   Path.fromString(getClass.getResource("/fonts/glyphicons-halflings-regular.woff2").getPath).copyTo(Path.fromString("docs/fonts/glyphicons-halflings-regular.woff2"))
+   FileUtils.copyURLToFile(getClass.getResource("/fonts/glyphicons-halflings-regular.woff2"), new File("docs/fonts/glyphicons-halflings-regular.woff2"))
 
    val documentation = scala.io.Source.fromInputStream(getClass.getResourceAsStream("/templates/documentation.mustache")).mkString
    val template = new Mustache(documentation)
