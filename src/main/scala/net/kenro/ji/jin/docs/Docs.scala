@@ -149,7 +149,7 @@ object Docs extends App {
     ), "README.md")
   )
 
-  new DocGen("Docs4s", "v14", "https://github.com/kingsleyh/docs4s/blob/master")
+  new DocGen("Docs4s", "v15", "https://github.com/kingsleyh/docs4s/blob/master")
     .withLinks(links)
     .withCards(cards)
     .withPages(pages)

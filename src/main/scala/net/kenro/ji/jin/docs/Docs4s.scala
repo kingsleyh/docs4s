@@ -1,7 +1,6 @@
 package net.kenro.ji.jin.docs
 
 import java.io.File
-import com.vspy.mustache.Mustache
 import org.apache.commons.io.FileUtils
 import org.fusesource.scalamd.Markdown
 import scalax.file.Path

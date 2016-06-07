@@ -14,10 +14,6 @@ crossScalaVersions := Seq("2.11.8")
 
 organization := "net.kenro-ji-jin"
 
-resolvers += "bintray-ee" at "https://dl.bintray.com/equalexperts/uxforms-releases/"
-
-libraryDependencies += "com.vspy" %% "mustache" % "1.3"
-
 libraryDependencies += "org.scalatra.scalate" % "scalamd_2.11" % "1.6.1"
 
 libraryDependencies += "com.github.scala-incubator.io" %% "scala-io-core" % "0.4.3"
